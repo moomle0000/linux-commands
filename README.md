@@ -221,6 +221,14 @@ You can also specify the number of lines to output:
 
 ## The `grep` Command
 
+If you need to learn more on Grep command usage, run the command below to get a sneak preview of other flags or options that you may use together with the comman
+
+```bash
+  grep --help
+```
+
+
+
 The `grep` command is used to search for a text pattern in a file. It is very powerful and can be used to search for a string or regular expression in a file or set of files.
 
 ```bash
@@ -249,6 +257,13 @@ To count the total number of lines where the string pattern appears or resides, 
 ```bash
 grep -c "test" welcome.txt
 ```
+
+line containing the exact matching word as shown
+
+```bash
+grep -w "test" welcome.txt
+```
+
 There are a lot more things that you can do with the `grep` command, but it's a but more advanced.
 
 ## The `find` command
