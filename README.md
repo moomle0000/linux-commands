@@ -232,7 +232,23 @@ You can also search for a string in multiple files:
 ```bash
   grep [searchterm] [filename] [filename]
 ```
+If you are working on a system that doesn’t display the search string or pattern in a different color from the rest of the text, use the --color to make your results stand out. Example
 
+```bash
+grep --color "test" welcome.txt 
+```
+
+If you wish to search for a string in your current directory and all other subdirectories, search using the - r flag as shown
+
+```bash
+grep -r "test" *
+```
+
+To count the total number of lines where the string pattern appears or resides, execute the command below
+
+```bash
+grep -c "test" welcome.txt
+```
 There are a lot more things that you can do with the `grep` command, but it's a but more advanced.
 
 ## The `find` command
