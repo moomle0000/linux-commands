@@ -429,8 +429,6 @@ Stop current process:
 ```bash
 Ctrl + Z
 ```
-The process can be resumed in the foreground with fg or in the background with bg.
-
 Cut one word before the cursor and add it to clipboard:
 ```bash
 Ctrl + W
