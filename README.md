@@ -458,6 +458,32 @@ Exit command history without running a command:
 Ctrl + G
 ```
 
+## File Permission 
+Chown command in Linux changes file and directory ownership.
+
+Assign read, write, and execute permission to everyone:
+```bash
+chmod 777 [file_name]
+```
+
+Give read, write, and execute permission to owner, and read and execute permission to group and others:
+```bash
+chmod 755 [file_name]
+```
+Assign full permission to owner, and read and write permission to group and others:
+```bash
+chmod 766 [file_name]
+```
+
+Change the ownership of a file:
+```bash
+chown [user] [file_name]
+```
+
+Change the owner and group ownership of a file:
+```bash
+chown [user]:[group] [file_name]
+```
 
 - [bradtraversy](https://github.com/bradtraversy)
 
