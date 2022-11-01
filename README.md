@@ -442,6 +442,7 @@ Ctrl + U
 Cut part of the line after the cursor and add it to clipboard:
 ```bash
 Ctrl + K
+```
 Paste from clipboard:
 ```bash
 Ctrl + Y
