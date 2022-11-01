@@ -419,5 +419,46 @@ You can also use the `!` to run a command from the history.
 This will run the command that is in the 100th position in the history.
 
 
+## The `shortcut keyboard` Command
+
+Kill process running in the terminal:
+```bash
+Ctrl + C
+```
+Stop current process:
+```bash
+Ctrl + Z
+```
+The process can be resumed in the foreground with fg or in the background with bg.
+
+Cut one word before the cursor and add it to clipboard:
+```bash
+Ctrl + W
+```
+Cut part of the line before the cursor and add it to clipboard:
+```bash
+Ctrl + U
+```
+Cut part of the line after the cursor and add it to clipboard:
+```bash
+Ctrl + K
+Paste from clipboard:
+```bash
+Ctrl + Y
+```
+Recall last command that matches the provided characters:
+```bash
+Ctrl + R
+```
+Run the previously recalled command:
+```bash
+Ctrl + O
+```
+Exit command history without running a command:
+```bash
+Ctrl + G
+```
+
+
 - [bradtraversy](https://github.com/bradtraversy)
 
