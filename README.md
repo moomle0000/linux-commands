@@ -389,6 +389,7 @@ If you're on Windows and you are not using something like Git Bash, you can use 
 | tar czvf [dirname].tar.gz [dirname] | Create tarball             |
 | tar tzvf [dirname]                  | See what is in the tarball |
 | tar xzvf [dirname].tar.gz           | Extract tarball            |
+| tar cf [dirname].tar [file]         | Create tarball             |
 
 - -c : Creates Archive 
 - -x : Extract the archive 
