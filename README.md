@@ -443,6 +443,17 @@ The default mode of zip is to add files to an archive and compress it.
   zip [dirname].zip [dirname]
 ```
 
+The –l list option of the unzip command lists files in .zip archives:
+
+```bash
+  unzip -l [dirname].zip
+```
+
+The gzip command will provide this information, by using the –l option, as shownhere:
+
+```bash
+gzip -l [dirname].gz
+```
 
 ## The `history` Command
 
