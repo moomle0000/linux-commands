@@ -405,7 +405,7 @@ If you're on Windows and you are not using something like Git Bash, you can use 
 
 
 `zip Files` 
-ZIP is not as prevalent in Linux but is well supported by the zip andunzip commands.
+ZIP is not as prevalent in Linux but is well supported by the zip and unzip commands.
 
   - -f   freshen: only changed files 
   - -u   update: only changed or new files
@@ -434,7 +434,7 @@ ZIP is not as prevalent in Linux but is well supported by the zip andunzip comma
   - -y   store symbolic links as the link instead of the referenced file
   - -e   encrypt                     
   - -n   don't compress these suffixes
-  - -h2  show more help
+
 
 
 The default mode of zip is to add files to an archive and compress it.
